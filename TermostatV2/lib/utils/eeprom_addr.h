@@ -1,0 +1,16 @@
+#pragma once
+#include <EEPROM.h>
+
+#define EEPROM_SIZE 100
+
+#define FIRST_SETUP 0
+#define RESET_ADDR 2
+#define CONSUMPTION_ADDR 9
+#define FW_VERSION_ADDR 19
+#define EPOCH_ADDR 30
+#define MONTH 34
+#define LAST_POWER_ADDR 46
+#define LAST_SETPOINT_ADDR 47
+#define TIME_HEATING_ON_ADDR 56
+#define FIRST_SETUP_TIME_ON 88
+#define DISCONNECT_REASON 92
